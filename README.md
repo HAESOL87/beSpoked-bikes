@@ -7,8 +7,6 @@ A simple CRUD app meant to simulate running a bike company with sales, customers
 
 ![BeSpoked Bikes Dashboard](docs/dashboard-screenshot.png)
 
-*Main dashboard showing the sales management interface with navigation sidebar and feature overview cards*
-
 ## Local Installation
 
 This is a Node.js project with a React frontend and Express backend. To get started, make sure you have Node.js (v16 or higher) and npm installed on your local device and clone the repository from GitHub to your device.
