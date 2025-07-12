@@ -1,0 +1,36 @@
+.products-list-row--out-of-stock {
+  background-color: #fff5f5 !important;
+}
+
+.products-list-row--low-stock {
+  background-color: #fffbf0 !important;
+}
+
+.products-list-qty--out-of-stock {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.products-list-qty--low-stock {
+  color: #fd7e14;
+  font-weight: bold;
+}
+
+.products-list-qty--in-stock {
+  color: #198754;
+  font-weight: normal;
+}
+
+.products-list-status-label {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.products-list-status-label--out-of-stock {
+  color: #dc3545;
+}
+
+.products-list-status-label--low-stock {
+  color: #fd7e14;
+} 

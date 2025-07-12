@@ -1,0 +1,76 @@
+/* Stock status messages */
+.sales-form-stock-message {
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.sales-form-stock-message--error {
+  color: #dc3545;
+}
+
+.sales-form-stock-message--info {
+  color: #6c757d;
+}
+
+/* Total price input */
+.sales-form-total-price-input {
+  background-color: #f8f9fa;
+  cursor: not-allowed;
+}
+
+/* Helper text */
+.sales-form-helper-text {
+  color: #6c757d;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+/* Price breakdown */
+.sales-form-price-breakdown {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sales-form-price-breakdown-title {
+  margin: 0 0 0.75rem 0;
+  color: #495057;
+  font-size: 1rem;
+}
+
+.sales-form-price-breakdown-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.sales-form-price-breakdown-item--discount {
+  color: #28a745;
+}
+
+.sales-form-price-breakdown-separator {
+  margin: 0.5rem 0;
+  border: none;
+  border-top: 1px solid #dee2e6;
+}
+
+.sales-form-price-breakdown-final {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #495057;
+}
+
+.sales-form-price-breakdown-savings {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #155724;
+} 

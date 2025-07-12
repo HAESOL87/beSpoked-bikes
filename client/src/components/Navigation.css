@@ -1,0 +1,76 @@
+.app-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 1rem;
+  flex: 1;
+}
+
+.app-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  border-radius: 8px;
+  color: #666666;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  gap: 0.5rem;
+  min-height: 60px;
+  opacity: 0.5;
+}
+
+.app-nav-list:hover {
+  color: #333333;
+  opacity: 1;
+}
+
+.app-nav-list.active {
+  color: #333333;
+  font-weight: 600;
+  transform: scale(1.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-nav {
+    gap: 0.25rem;
+    padding: 0.75rem 0.5rem;
+  }
+  
+  .app-nav-list {
+    min-height: 50px;
+    padding: 0.25rem 0.25rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-nav {
+    padding: 0.5rem 0.25rem;
+  }
+  
+  .app-nav-list {
+    min-height: 45px;
+    padding: 0.25rem 0.1rem;
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .app-nav {
+    padding: 0.5rem 0.15rem;
+  }
+  
+  .app-nav-list {
+    min-height: 40px;
+    padding: 0.2rem 0.1rem;
+    font-size: 0.6rem;
+    gap: 0.25rem;
+  }
+} 

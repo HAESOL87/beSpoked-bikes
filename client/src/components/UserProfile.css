@@ -1,0 +1,52 @@
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 8px;
+}
+
+.user-profile:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.user-profile-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f59e0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.user-profile-avatar svg {
+  width: 24px;
+  height: 24px;
+}
+
+.user-profile-avatar svg path {
+  fill: white;
+}
+
+.user-profile-info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.user-profile-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1.2;
+}
+
+.user-profile-role {
+  font-size: 0.75rem;
+  color: #666666;
+  line-height: 1.2;
+} 

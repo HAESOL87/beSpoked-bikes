@@ -1,0 +1,8 @@
+/* Salespersons List */
+.salespersons-list-status--active {
+  color: #198754;
+}
+
+.salespersons-list-status--inactive {
+  color: #dc3545;
+} 
